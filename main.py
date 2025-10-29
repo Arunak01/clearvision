@@ -44,7 +44,7 @@ st.markdown("""
 # Initialize ChatGroq with API key from environment
 @st.cache_resource
 def get_llm():
-    return ChatGroq(model_name='llama-4-maverick-17b-128e-instruct', api_key="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")
+    return ChatGroq(model_name='llama-3.3-70b-versatile', api_key="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")
 
 llm = get_llm()
 
